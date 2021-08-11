@@ -1,0 +1,112 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+#header-nav {
+    background-color: aqua;
+    padding-top: 20px;
+    border: 1px solid black;
+}
+
+.navbar-brand{
+    font-size: large;
+    text-align: left;
+    color:black;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+.menu-item {
+    font-weight: bold;
+    color: black;
+    position: relative;
+}
+
+h1 {
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: .15;
+}
+
+#containers {
+    background-color: lightblue;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    height: auto;
+    clear: both;
+    border: .75px solid black;
+    margin: 20px;
+}
+
+.items {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    font-size: medium;
+}
+
+
+h2 {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3, h4, h5 {
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+}
+
+p {
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: black;
+    font-weight: bold;
+}
+
+#InfoClass{
+    margin:0px;
+    padding:5px 10px 0px 10px;
+    border:0ox;
+}
